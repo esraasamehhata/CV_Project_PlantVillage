@@ -2,15 +2,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red?logo=pytorch)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-F7931E?logo=scikit-learn)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?logo=opencv)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-
-**CIE 552 Computer Vision — Term Project**
+** Computer Vision Project**
 *Zewail City of Science, Technology and Innovation*
 
 [Overview](#-overview) • [Results](#-results) • [Installation](#-installation) • [Usage](#-usage) • [Methodology](#-methodology) • [Future Work](#-future-work)
@@ -228,23 +220,6 @@ Four distortion types applied exclusively at inference time:
 
 ---
 
-## 📸 Figures
-
-| Figure | Description |
-|--------|-------------|
-| `results/figures/class_distribution.png` | PlantVillage class distribution bar chart |
-| `results/figures/plantcnn_training_curves.png` | PlantCNN training/validation accuracy & loss |
-| `results/figures/augmentation_comparison.png` | Baseline vs augmented training curves |
-| `results/figures/resnet50_training_curves.png` | Transfer learning training curves with unfreeze marker |
-| `results/figures/confusion_matrix_cnn.png` | Custom CNN confusion matrix (38×38) |
-| `results/figures/confusion_matrix_augmented.png` | Augmented CNN confusion matrix |
-| `results/figures/distortion_robustness.png` | Accuracy vs. distortion severity for all 4 models |
-| `results/figures/adversarial_fgsm.png` | Clean vs. adversarial accuracy under FGSM |
-| `results/figures/augmentation_samples.png` | 9 augmented views of a sample leaf image |
-| `results/figures/distortion_examples.png` | Distortion severity grid (4 types × 3 levels) |
-
----
-
 ## 🔮 Future Improvements
 
 - [ ] Evaluate on real-world field-collected datasets (e.g., AI Challenger Plant Disease)
@@ -266,16 +241,8 @@ Four distortion types applied exclusively at inference time:
 | Hala Mohamed | 202100987 | CNN Architecture, Augmentation Experiments |
 
 **Supervised by:** Dr. Mohamed Tolba
-**TAs:** Mennah Mohammed, Retaj Yousri
-**Course:** CIE 552 Computer Vision — Zewail City of Science, Technology and Innovation
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
+**Course:** Computer Vision — Zewail City of Science, Technology and Innovation
 
 <div align="center">
 
